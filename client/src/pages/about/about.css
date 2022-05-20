@@ -1,0 +1,69 @@
+.about{
+    flex: 3;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-image: 
+    linear-gradient(rgba(255,255,255,10),rgba(255,255,255,0.5)),
+    url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    background-size: cover;
+}
+.aboutItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutTitle{
+    margin: 10px;
+    padding: 5px;
+    border-bottom-style:groove;
+    font-family: serif;
+    font-size: 50px;
+    color: #222;
+    text-align: center;
+}
+.aboutItem > img{
+    margin-top: 15px;
+    width: 50%;
+    height: 350px;
+    border-radius: 20px;
+}
+.aboutItem > p{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace; 
+    padding: 30px;
+    text-align:justify
+}
+.aboutList{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.aboutListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.aboutSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutIcon{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
